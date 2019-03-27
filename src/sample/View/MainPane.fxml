@@ -31,7 +31,7 @@
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Button fx:id="loadButton" mnemonicParsing="false" onAction="#loadButtonInAction" prefWidth="350.0" text="Load" />
-                  <Button fx:id="checkButton" mnemonicParsing="false" prefWidth="350.0" text="Check" />
+                  <Button fx:id="checkButton" mnemonicParsing="false" onAction="#listVievImport" prefWidth="350.0" text="Check" />
                </children>
             </HBox>
             <Button fx:id="backButton" mnemonicParsing="false" onAction="#backButtonUse" prefWidth="700.0" text="Back" />

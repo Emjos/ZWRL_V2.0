@@ -12,14 +12,20 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
+
+
 import java.io.IOException;
 
 
 
 public class MainController {
-    private ObservableList<String> obList1;
+
+    @FXML
+    private Button checkButton;
+
     @FXML
     private ListView<String> listIp;
 
@@ -52,4 +58,11 @@ public class MainController {
         newScene.newScene(event,backToLogin);
     }
 
+
+    @FXML
+    void listVievImport(ActionEvent event) {
+        String ip;
+        ip = listIp.getSelectionModel().getSelectedItem();
+        System.out.println(ip);
+    }
 }
