@@ -23,8 +23,7 @@ import java.io.IOException;
 
 public class MainController {
 
-    @FXML
-    private Button checkButton;
+
 
     @FXML
     private ListView<String> listIp;
@@ -61,8 +60,25 @@ public class MainController {
 
     @FXML
     void listVievImport(ActionEvent event) {
+        textAreaIp.clear();
         String ip;
         ip = listIp.getSelectionModel().getSelectedItem();
-        System.out.println(ip);
-    }
-}
+        ImportIpData importIpData = new ImportIpData();
+        System.out.println(importIpData.Check(ip));
+        for (int i = 0; i <importIpData.Check(ip).size() ; i++) {
+            textAreaIp.appendText(importIpData.Check(ip).get(i) + "\n");
+
+        }
+        textAreaIp.setWrapText(true);
+
+
+
+        }
+
+        }
+
+
+
+
+
+
