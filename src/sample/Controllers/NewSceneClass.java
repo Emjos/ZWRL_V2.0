@@ -12,8 +12,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import javax.imageio.IIOException;
-import java.io.IOException;
+
 
 public class NewSceneClass {
     void newScene(ActionEvent event, Parent paneParent) {

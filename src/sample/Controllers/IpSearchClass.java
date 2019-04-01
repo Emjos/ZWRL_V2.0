@@ -14,7 +14,7 @@ public class IpSearchClass {
     public void Ipclass() throws IOException{
         //Zapisywanie do pliku
         String fileName = "test.txt";
-        DataOutputStream outputStream = null;
+
         TreeSet<String> tablica = new TreeSet<>();
 
         int z = 0;
