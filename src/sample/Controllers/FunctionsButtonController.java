@@ -6,6 +6,11 @@
 package sample.Controllers;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+
+import java.io.IOException;
+
 public class FunctionsButtonController {
 
     public void funtionFirstController(ActionEvent event){
@@ -15,8 +20,13 @@ public class FunctionsButtonController {
     public void functionSecondController(ActionEvent event){
         System.out.println("Funkcja druga");
     }
-    public void functionThirdController(ActionEvent event){
-        System.out.println("Funkcja Trzecia");
+
+
+    public void functionThirdController(ActionEvent event) throws IOException {
+
+        Parent backToLogin = FXMLLoader.load(getClass().getResource("../View/FunctionThreePane.fxml"));
+        NewSceneClass newScene = new NewSceneClass();
+        newScene.newScene(event,backToLogin);;
     }
 
 }

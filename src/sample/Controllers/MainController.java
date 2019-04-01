@@ -12,7 +12,6 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
-import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 
@@ -42,7 +41,7 @@ public class MainController {
     }
 
     @FXML
-    void functionThirdController(ActionEvent event) {
+    void functionThirdController(ActionEvent event) throws IOException {
         functionsButtonController.functionThirdController(event);
     }
     @FXML
