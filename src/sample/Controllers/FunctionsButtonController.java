@@ -13,8 +13,10 @@ import java.io.IOException;
 
 public class FunctionsButtonController {
 
-    public void funtionFirstController(ActionEvent event){
-        System.out.println("Funkcja pierwsza");
+    public void funtionFirstController(ActionEvent event)throws IOException{
+        Parent mainPaneParent = FXMLLoader.load(getClass().getResource("../View/MainPane.fxml"));
+        NewSceneClass newScene = new NewSceneClass();
+        newScene.newScene(event,mainPaneParent);
 
     }
     public void functionSecondController(ActionEvent event){
@@ -27,6 +29,12 @@ public class FunctionsButtonController {
         Parent backToLogin = FXMLLoader.load(getClass().getResource("../View/FunctionThreePane.fxml"));
         NewSceneClass newScene = new NewSceneClass();
         newScene.newScene(event,backToLogin);;
+    }
+    public void backButtonController(ActionEvent event) throws IOException{
+        Parent backToLogin = FXMLLoader.load(getClass().getResource("../View/LoginPane.fxml"));
+        NewSceneClass newScene = new NewSceneClass();
+        newScene.newScene(event,backToLogin);
+
     }
 
 }

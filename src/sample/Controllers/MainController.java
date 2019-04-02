@@ -32,7 +32,8 @@ public class MainController {
     FunctionsButtonController functionsButtonController = new FunctionsButtonController();
 
     @FXML
-    void funtionFirstController(ActionEvent event) {
+    void funtionFirstController(ActionEvent event) throws IOException {
+
         functionsButtonController.funtionFirstController(event);
     }
     @FXML
@@ -51,9 +52,7 @@ public class MainController {
     }
     @FXML
     public void backButtonUse(ActionEvent event) throws IOException {
-        Parent backToLogin = FXMLLoader.load(getClass().getResource("../View/LoginPane.fxml"));
-        NewSceneClass newScene = new NewSceneClass();
-        newScene.newScene(event,backToLogin);
+        functionsButtonController.backButtonController(event);
     }
 
 

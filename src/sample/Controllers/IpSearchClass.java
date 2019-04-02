@@ -51,8 +51,8 @@ public class IpSearchClass {
             String nextLine = null;
             while ((nextLine = reader.readLine()) != null) {
                 if (z > 4) {
-                    String zobaczymy = nextLine.substring(5, 30).trim();
-                    tablica.add(zobaczymy.substring(0, zobaczymy.length() - 6));
+                    String textCon = nextLine.substring(5, 30).trim();
+                    tablica.add(textCon.substring(0, textCon.length() - 6));
                 }
                 z++;
             }

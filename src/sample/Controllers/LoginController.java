@@ -30,13 +30,11 @@ public class LoginController {
     private Label errorLabel;
 
 
-
+    FunctionsButtonController functionsButtonController = new FunctionsButtonController();
     @FXML // Przycisk zalogowania sprawdza usernameField i passwordField i loguje do maina
     private void handleButtonAction(ActionEvent event) throws IOException {
         if ( usernameField.getText().equals("admin") && passwordField.getText().equals("admin")) {
-            Parent mainPaneParent = FXMLLoader.load(getClass().getResource("../View/MainPane.fxml"));
-            NewSceneClass newScene = new NewSceneClass();
-            newScene.newScene(event,mainPaneParent);
+           functionsButtonController.funtionFirstController(event);
 
         }
         else

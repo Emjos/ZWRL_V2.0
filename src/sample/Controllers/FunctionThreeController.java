@@ -10,6 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 public class FunctionThreeController {
 
@@ -28,28 +29,37 @@ public class FunctionThreeController {
     @FXML
     private TextArea informationArea;
 
-    @FXML
-    private Button checkInfoButton;
 
+    FunctionsButtonController functionsButtonController = new FunctionsButtonController();
     @FXML
     void functionSecondController(ActionEvent event) {
 
     }
 
     @FXML
-    void functionThirdController(ActionEvent event) {
-
+    void functionThirdController(ActionEvent event) throws  IOException{
+        functionsButtonController.functionThirdController(event);
     }
 
     @FXML
-    void funtionFirstController(ActionEvent event) {
-
+    void funtionFirstController(ActionEvent event)throws IOException {
+    functionsButtonController.funtionFirstController(event);
     }
 
     @FXML
     void backButtonApp(ActionEvent event)throws IOException {
-        Parent mainPaneParent = FXMLLoader.load(getClass().getResource("../View/MainPane.fxml"));
-        NewSceneClass newScene = new NewSceneClass();
-        newScene.newScene(event,mainPaneParent);
+    functionsButtonController.backButtonController(event);
+    }
+
+    @FXML
+
+    void checkButtonApp(ActionEvent event) throws IOException{
+        String[] cmdarray = {"ipconfig", "-all"};
+        Process process = Runtime.getRuntime().exec(cmdarray);
+        Scanner sc = new Scanner(process.getInputStream());
+        sc.useDelimiter("\\A");
+
+        informationArea.clear();
+        informationArea.appendText( sc.next());
     }
 }
