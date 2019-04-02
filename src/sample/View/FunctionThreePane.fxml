@@ -21,6 +21,6 @@
       </HBox>
       <Button fx:id="backButton" layoutY="423.0" mnemonicParsing="false" onAction="#backButtonApp" prefHeight="25.0" prefWidth="700.0" text="Back" />
       <TextArea fx:id="informationArea" layoutY="25.0" prefHeight="374.0" prefWidth="700.0" />
-      <Button fx:id="checkInfoButton" layoutY="398.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="700.0" text="Check Info" />
+      <Button fx:id="checkInfoButton" layoutY="398.0" mnemonicParsing="false" onAction="#checkButtonApp" prefHeight="25.0" prefWidth="700.0" text="Check Info" />
    </children>
 </AnchorPane>
