@@ -33,6 +33,7 @@ public class LoginController {
     FunctionsButtonController functionsButtonController = new FunctionsButtonController();
     @FXML // Przycisk zalogowania sprawdza usernameField i passwordField i loguje do maina
     private void handleButtonAction(ActionEvent event) throws IOException {
+
         if ( usernameField.getText().equals("admin") && passwordField.getText().equals("admin")) {
            functionsButtonController.funtionFirstController(event);
 
