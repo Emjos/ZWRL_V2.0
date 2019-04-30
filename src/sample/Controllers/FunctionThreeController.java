@@ -28,7 +28,7 @@ public class FunctionThreeController {
     private TextArea informationArea;
 
 
-    FunctionsButtonController functionsButtonController = new FunctionsButtonController();
+     FunctionsButtonController functionsButtonController = new FunctionsButtonController();
 
     @FXML
     void functionSecondController(ActionEvent event) {

@@ -17,12 +17,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ListUpdateClass {
-    private ObservableList<String> obList1;
+
 public void Update(ListView<String> listIp)throws IOException {
     IpSearchClass ipSearchClass = new IpSearchClass();
     ipSearchClass.Ipclass();
     ArrayList<String> lista = new ArrayList <>();
-    obList1 = FXCollections.observableArrayList();
+    ObservableList<String> obList1 = FXCollections.observableArrayList();
     String fileName = "test2.txt";
     File file = new File(fileName);
     Scanner scan = null;

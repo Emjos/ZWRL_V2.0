@@ -28,7 +28,7 @@ public class FunctionsButtonController {
 
         Parent backToLogin = FXMLLoader.load(getClass().getResource("../View/FunctionThreePane.fxml"));
         NewSceneClass newScene = new NewSceneClass();
-        newScene.newScene(event,backToLogin);;
+        newScene.newScene(event,backToLogin);
     }
     public void backButtonController(ActionEvent event) throws IOException{
         Parent backToLogin = FXMLLoader.load(getClass().getResource("../View/LoginPane.fxml"));

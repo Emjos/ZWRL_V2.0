@@ -18,9 +18,6 @@ import javafx.scene.control.TextArea;
 
 import java.io.IOException;
 
-import java.util.ArrayList;
-
-import java.util.List;
 
 
 public class MainController {
@@ -67,13 +64,13 @@ public class MainController {
         ImportIpData importIpData = new ImportIpData();
         System.out.println(importIpData.Check(ip));
 
-        List list = new ArrayList(importIpData.Check(ip));
 
-        for (Object o : list) {
+
+        for (Object o : importIpData.Check(ip)) {
     textAreaIp.appendText(o.toString());
     textAreaIp.appendText("\n");
         }
-       // textAreaIp.appendText(list.toString());
+
         textAreaIp.setWrapText(true);
 
 
