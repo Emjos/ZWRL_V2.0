@@ -10,14 +10,17 @@ package sample.Controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
+
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 
 
+
 import java.io.IOException;
 
+import java.util.ArrayList;
+
+import java.util.List;
 
 
 public class MainController {
@@ -63,10 +66,14 @@ public class MainController {
         ip = listIp.getSelectionModel().getSelectedItem();
         ImportIpData importIpData = new ImportIpData();
         System.out.println(importIpData.Check(ip));
-        for (int i = 0; i <importIpData.Check(ip).size() ; i++) {
-            textAreaIp.appendText(importIpData.Check(ip).get(i) + "\n");
 
+        List list = new ArrayList(importIpData.Check(ip));
+
+        for (Object o : list) {
+    textAreaIp.appendText(o.toString());
+    textAreaIp.appendText("\n");
         }
+       // textAreaIp.appendText(list.toString());
         textAreaIp.setWrapText(true);
 
 
