@@ -27,7 +27,7 @@ public class IpSearchClass {
 
         try (
                 FileOutputStream fs = new FileOutputStream(fileName);
-                ObjectOutputStream os = new ObjectOutputStream(fs);
+                ObjectOutputStream os = new ObjectOutputStream(fs)
         ) {
             os.writeObject(zminna);
 
@@ -36,8 +36,7 @@ public class IpSearchClass {
                 FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-        } catch (
-                IOException e) {
+        } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
