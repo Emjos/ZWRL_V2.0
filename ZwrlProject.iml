@@ -7,9 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Libraries" level="project" />
+    <orderEntry type="library" exported="" name="Libraries" level="project" />
     <orderEntry type="library" name="Maven: Arquillian JUnit:Release" level="project" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="JUnit4">
         <CLASSES>
           <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
@@ -19,6 +19,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" exported="" name="jsoup-1.11.3" level="application" />
+    <orderEntry type="library" name="jsoup-1.11.3" level="application" />
   </component>
 </module>
