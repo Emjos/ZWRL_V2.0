@@ -20,5 +20,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="jsoup-1.11.3" level="application" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.47-bin" level="project" />
   </component>
 </module>
