@@ -15,6 +15,9 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
 import java.io.IOException;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 
 public class LoginController {
@@ -30,11 +33,33 @@ public class LoginController {
     private Label errorLabel;
 
 
+    private String query;
+    private static ServerConnect serverConnect = new ServerConnect();
+    private Statement statement;
     FunctionsButtonController functionsButtonController = new FunctionsButtonController();
     @FXML // Przycisk zalogowania sprawdza usernameField i passwordField i loguje do maina
     private void handleButtonAction(ActionEvent event) throws IOException {
+        serverConnect.DBConnect();
+        query = "select user_nick,user_password from 30712964_test.users where user_nick ='"+usernameField.getText() +"';";
+        String username =null;
+        String password= null;
+        try {
+            statement = serverConnect.connection.createStatement();
+            ResultSet rs = statement.executeQuery(query);
+            while (rs.next()) {
+                 username = rs.getString("user_nick");
+                 password = rs.getString("user_password");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
-        if ( usernameField.getText().equals("admin") && passwordField.getText().equals("admin")) {
+        System.out.println(query);
+        System.out.println(username);
+        System.out.println(password);
+
+
+        if ( usernameField.getText().equals(username) && passwordField.getText().equals(password)) {
            functionsButtonController.funtionFirstController(event);
 
         }

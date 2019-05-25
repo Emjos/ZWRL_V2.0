@@ -6,17 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="remove git ignore">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_47_bin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libraries/mysql-connector-java-5.1.47-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Controllers/RegistryClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Controllers/ServerConnect.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Add MySql database&#10;Done Registry Pane">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZwrlDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/ZwrlDiagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZwrlProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ZwrlProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/View/FunctionThreePane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/FunctionThreePane.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/ServerConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/ServerConnect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/View/RegisterPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/View/RegisterPane.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -45,25 +40,33 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zwrlusers@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="30712964_test@46.242.246.219" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zwrlusers@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="30712964_test@46.242.246.219" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zwrlusers@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="30712964_test@46.242.246.219" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="zwrlusers: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="30712964_test: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zwrlusers@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="30712964_test@46.242.246.219" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="zwrlusers: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="30712964_test: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="30712964_test@46.242.246.219" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="30712964_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -114,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/RegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="83" column="62" selection-start-line="83" selection-start-column="61" selection-end-line="83" selection-end-column="62" />
+            <state relative-caret-position="161">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#0#1642#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -127,17 +130,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ServerConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="119">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3320581-896e-408f-b2bd-4bfe4435a184/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70083d89-b360-4dd4-aec2-1fea8b9795a7/console.sql">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#1485#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,22 +211,23 @@
         <option value="$PROJECT_DIR$/src/sample/Controllers/NewSceneClass.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/IpSearchClass.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/FunctionsButtonController.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/FunctionThreeController.java" />
         <option value="$PROJECT_DIR$/src/sample/View/RegisterPane.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/ServerConnect.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/LookForUser.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/ServerConnect.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70083d89-b360-4dd4-aec2-1fea8b9795a7/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e3320581-896e-408f-b2bd-4bfe4435a184/console.sql" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/LoginController.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1043" />
+    <option name="x" value="-1688" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -280,7 +300,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558807663027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558814237309" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -454,7 +474,7 @@
       <workItem from="1557351636350" duration="980000" />
       <workItem from="1557611123981" duration="203000" />
       <workItem from="1558096929323" duration="154000" />
-      <workItem from="1558802769294" duration="4829000" />
+      <workItem from="1558802769294" duration="9267000" />
     </task>
     <task id="LOCAL-00001" summary="remove git ignore">
       <created>1557351777788</created>
@@ -470,41 +490,49 @@
       <option name="project" value="LOCAL" />
       <updated>1557351865848</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add MySql database&#10;Done Registry Pane">
+      <created>1558807703171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558807703171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61312000" />
+    <option name="totallyTimeSpent" value="65750000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-1688" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.25587043" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.19327217" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Favorites" order="6" />
       <window_info id="simpleUML" order="7" weight="0.32955465" />
-      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.3321492" />
+      <window_info anchor="bottom" id="Database Console" weight="0.33146697" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.357016" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.22508399" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Application Servers" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.053285968" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3374778" />
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Changes" order="13" />
       <window_info anchor="bottom" id="Profiler" order="14" />
       <window_info anchor="bottom" id="Event Log" order="15" weight="0.3285968" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3281075" />
       <window_info active="true" anchor="bottom" id="Inspection Results" order="17" visible="true" weight="0.3285968" />
       <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -515,7 +543,7 @@
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.26558703" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.29357797" />
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="right" id="PlantUML" order="11" />
@@ -525,28 +553,29 @@
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.29473683" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.19327217" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Favorites" order="6" />
       <window_info id="simpleUML" order="7" weight="0.32955465" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.3285968" />
-      <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.14564832" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Application Servers" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.053285968" />
-      <window_info anchor="bottom" id="Problems" order="12" />
-      <window_info anchor="bottom" id="Changes" order="13" />
-      <window_info anchor="bottom" id="Profiler" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" weight="0.3285968" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" order="17" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Console" order="0" visible="true" weight="0.33146697" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3285968" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.22508399" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Application Servers" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3374778" />
+      <window_info anchor="bottom" id="Problems" order="13" />
+      <window_info anchor="bottom" id="Changes" order="14" />
+      <window_info anchor="bottom" id="Profiler" order="15" />
+      <window_info anchor="bottom" id="Event Log" order="16" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="18" visible="true" weight="0.3285968" />
       <window_info anchor="right" id="Codota" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -556,7 +585,7 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="8" />
-      <window_info anchor="right" id="Database" order="9" />
+      <window_info active="true" anchor="right" id="Database" order="9" visible="true" weight="0.2" />
       <window_info anchor="right" id="Palette" order="10" />
       <window_info anchor="right" id="Maven Projects" order="11" />
       <window_info anchor="right" id="PlantUML" order="12" />
@@ -565,11 +594,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="remove git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove git ignore" />
+    <MESSAGE value="Add MySql database&#10;Done Registry Pane" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MySql database&#10;Done Registry Pane" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -888,27 +944,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/LoginController.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70083d89-b360-4dd4-aec2-1fea8b9795a7/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ServerConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="83" column="62" selection-start-line="83" selection-start-column="61" selection-end-line="83" selection-end-column="62" />
+        <state relative-caret-position="161">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#0#1642#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -916,10 +962,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70083d89-b360-4dd4-aec2-1fea8b9795a7/console.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3320581-896e-408f-b2bd-4bfe4435a184/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/ServerConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#1485#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
