@@ -62,7 +62,7 @@ public class RegisterController {
     public void registrykButtonInUse(ActionEvent event){
         serverConnect.DBConnect();
 
-        procedure = "{call look_for_user(?)}";
+        procedure = "{call 30712964_test.look_for_user(?)}";
         try {
             CallableStatement stmt = serverConnect.connection.prepareCall(procedure);
             stmt.setString(1, userButton.getText());
@@ -73,7 +73,7 @@ public class RegisterController {
             }
             if (check == 0) {
                 System.out.println("uzytkownik " + userButton.getText() + " nie istnieje");
-                procedure = "{call zwrlusers.create_new_user(?,?,?)}";
+                procedure = "{call 30712964_test.create_new_user(?,?,?)}";
                 PreparedStatement stmt2 = serverConnect.connection.prepareStatement(procedure);
                 stmt2.setString(1, userButton.getText());
                 stmt2.setString(2, passwordButton.getText());
@@ -81,6 +81,7 @@ public class RegisterController {
                 stmt2.executeUpdate();
                 System.out.println("Data Added Successfully");
                 nieistnieje.setVisible(true);
+                istnieje.setVisible(false);
                 nieistnieje.setText("Data Added Successfully");
 
 
@@ -88,6 +89,7 @@ public class RegisterController {
             else if (check != 0) {
                 istnieje.setText("uzytkownik " + userButton.getText() + " istnieje");
                 istnieje.setVisible(true);
+                nieistnieje.setVisible(false);
 
 
                 System.out.println("uzytkownik " + userButton.getText() + " istnieje");
