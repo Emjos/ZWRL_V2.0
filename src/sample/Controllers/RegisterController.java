@@ -13,8 +13,10 @@ import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 
 import java.io.IOException;
+import java.sql.*;
 
 public class RegisterController {
 
@@ -33,6 +35,22 @@ public class RegisterController {
     @FXML
     private Button backButton;
 
+    @FXML
+    private TextField emailText;
+
+    @FXML
+    private Text istnieje;
+
+    @FXML
+    private Text nieistnieje;
+
+
+
+    private String query;
+    private String procedure;
+    private static ServerConnect serverConnect = new ServerConnect();
+
+
 
     public void backButtonUse(ActionEvent event) throws IOException {
         Parent backToLogin = FXMLLoader.load(getClass().getResource("../View/LoginPane.fxml"));
@@ -40,13 +58,44 @@ public class RegisterController {
         newScene.newScene(event,backToLogin);
     }
 
-    public void checkButtonInUse(ActionEvent event){
-        System.out.println("Wybrano username : " + userButton.getText());
-        System.out.println("Wybrano password : " + passwordButton.getText());
 
-    }
     public void registrykButtonInUse(ActionEvent event){
-        System.out.println("Wybrano username : " + userButton.getText());
-        System.out.println("Wybrano password : " + passwordButton.getText());
+        serverConnect.DBConnect();
+
+        procedure = "{call look_for_user(?)}";
+        try {
+            CallableStatement stmt = serverConnect.connection.prepareCall(procedure);
+            stmt.setString(1, userButton.getText());
+            ResultSet rs = stmt.executeQuery();
+            int check = 0;
+            while (rs.next()) {
+                check++;
+            }
+            if (check == 0) {
+                System.out.println("uzytkownik " + userButton.getText() + " nie istnieje");
+                procedure = "{call zwrlusers.create_new_user(?,?,?)}";
+                PreparedStatement stmt2 = serverConnect.connection.prepareStatement(procedure);
+                stmt2.setString(1, userButton.getText());
+                stmt2.setString(2, passwordButton.getText());
+                stmt2.setString(3, emailText.getText());
+                stmt2.executeUpdate();
+                System.out.println("Data Added Successfully");
+                nieistnieje.setVisible(true);
+                nieistnieje.setText("Data Added Successfully");
+
+
+            }
+            else if (check != 0) {
+                istnieje.setText("uzytkownik " + userButton.getText() + " istnieje");
+                istnieje.setVisible(true);
+
+
+                System.out.println("uzytkownik " + userButton.getText() + " istnieje");
+            }
+        }
+        catch (SQLException e) {
+            e.printStackTrace();
+        }
+
     }
 }

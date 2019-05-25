@@ -2,85 +2,16 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes>
-    <node x="724.9999999999999" y="377.0">sample.Controllers.FunctionThreeController</node>
-    <node x="205.9999999999999" y="188.5">sample.Controllers.ListUpdateClass</node>
-    <node x="770.4999999999999" y="0.0">sample.Controllers.NewSceneClass</node>
-    <node x="1091.0" y="432.0">sample.Controllers.LoginController</node>
-    <node x="454.9999999999999" y="111.0">sample.Controllers.RegisterController</node>
-    <node x="0.0" y="188.5">sample.Controllers.ImportIpData</node>
-    <node x="748.9999999999999" y="155.5">sample.Controllers.FunctionsButtonController</node>
-    <node x="150.47727272727275" y="399.0">sample.Controllers.MainController</node>
-    <node x="254.97727272727275" y="0.0">sample.Controllers.IpSearchClass</node>
-  </nodes>
+  <nodes />
   <notes />
-  <edges>
-    <edge source="sample.Controllers.MainController" target="sample.Controllers.ListUpdateClass">
-      <point x="28.833333333333258" y="-114.0" />
-      <point x="352.310606060606" y="357.0" />
-      <point x="377.7499999999999" y="357.0" />
-      <point x="57.25" y="25.5" />
-    </edge>
-    <edge source="sample.Controllers.MainController" target="sample.Controllers.FunctionsButtonController">
-      <point x="86.49999999999989" y="-114.0" />
-      <point x="409.97727272727263" y="337.0" />
-      <point x="773.8333333333333" y="337.0" />
-      <point x="-124.16666666666663" y="58.5" />
-    </edge>
-    <edge source="sample.Controllers.FunctionsButtonController" target="sample.Controllers.NewSceneClass">
-      <point x="-74.5" y="-58.5" />
-      <point x="823.4999999999999" y="91.0" />
-      <point x="876.7499999999999" y="91.0" />
-      <point x="-21.25" y="25.5" />
-    </edge>
-    <edge source="sample.Controllers.MainController" target="sample.Controllers.ImportIpData">
-      <point x="-86.50000000000011" y="-114.0" />
-      <point x="236.97727272727263" y="347.0" />
-      <point x="139.5" y="347.0" />
-      <point x="46.5" y="25.5" />
-    </edge>
-    <edge source="sample.Controllers.FunctionThreeController" target="sample.Controllers.FunctionsButtonController">
-      <point x="-86.5" y="-136.0" />
-      <point x="811.4999999999999" y="357.0" />
-      <point x="873.1666666666665" y="357.0" />
-      <point x="-24.83333333333337" y="58.5" />
-    </edge>
-    <edge source="sample.Controllers.LoginController" target="sample.Controllers.NewSceneClass">
-      <point x="129.75" y="-81.0" />
-      <point x="1393.75" y="357.0" />
-      <point x="1356.0" y="357.0" />
-      <point x="1356.0" y="71.0" />
-      <point x="1004.2499999999999" y="71.0" />
-      <point x="106.25" y="25.5" />
-    </edge>
-    <edge source="sample.Controllers.LoginController" target="sample.Controllers.FunctionsButtonController">
-      <point x="-129.75" y="-81.0" />
-      <point x="1134.25" y="347.0" />
-      <point x="972.4999999999999" y="347.0" />
-      <point x="74.5" y="58.5" />
-    </edge>
-    <edge source="sample.Controllers.RegisterController" target="sample.Controllers.NewSceneClass">
-      <point x="-68.5" y="-103.0" />
-      <point x="523.4999999999999" y="71.0" />
-      <point x="791.7499999999999" y="71.0" />
-      <point x="-106.25" y="25.5" />
-    </edge>
-    <edge source="sample.Controllers.ListUpdateClass" target="sample.Controllers.IpSearchClass">
-      <point x="57.25" y="-25.5" />
-      <point x="377.7499999999999" y="91.0" />
-      <point x="357.72727272727275" y="91.0" />
-      <point x="34.25" y="25.5" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="872.2222222222223" y="431.11111111111114" />
-  <SelectedNodes>
-    <node>sample.Controllers.NewSceneClass</node>
-  </SelectedNodes>
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="419.1666666666665" y="334.9722222222221" />
+  <SelectedNodes />
   <Categories>
-    <Category>Properties</Category>
-    <Category>Methods</Category>
-    <Category>Constructors</Category>
     <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

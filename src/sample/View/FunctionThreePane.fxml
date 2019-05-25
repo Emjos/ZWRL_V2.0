@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 
-
 <AnchorPane prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.FunctionThreeController">
    <children>
       <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="700.0">
@@ -20,7 +19,7 @@
          </rotationAxis>
       </HBox>
       <Button fx:id="backButton" layoutY="423.0" mnemonicParsing="false" onAction="#backButtonApp" prefHeight="25.0" prefWidth="700.0" text="Back" />
-      <TextArea fx:id="informationArea" layoutY="25.0" prefHeight="374.0" prefWidth="700.0" />
+      <TextArea fx:id="informationArea" editable="false" layoutY="25.0" prefHeight="374.0" prefWidth="700.0" />
       <Button fx:id="checkInfoButton" layoutY="398.0" mnemonicParsing="false" onAction="#checkButtonApp" prefHeight="25.0" prefWidth="700.0" text="Check Info" />
    </children>
 </AnchorPane>
