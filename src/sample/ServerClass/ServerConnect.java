@@ -1,4 +1,4 @@
-package sample.Controllers;
+package sample.ServerClass;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,10 +10,10 @@ public class ServerConnect {
     private final static String DBUSER = "30712964_test";
     private final static String DBPASS = "Passwordes123";
     private final static String DBDRIVER = "com.mysql.jdbc.Driver";
-     Connection connection;
+     public Connection connection;
 
 
-    private Connection getConnection() throws SQLException {
+        public Connection getConnection() throws SQLException {
         Connection conn;
         conn = DriverManager.getConnection(DBURL,DBUSER,DBPASS);
         return conn;
@@ -24,7 +24,6 @@ public class ServerConnect {
         try {
             Class.forName(DBDRIVER);
             connection = getConnection();
-            Statement statement = connection.createStatement();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {

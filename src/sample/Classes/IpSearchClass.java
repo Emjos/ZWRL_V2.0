@@ -4,7 +4,7 @@
 // ogolnie ta klasa to pobieranie listy i informacji o IP
 // skonwetowanie tego do odpowiedniej formy
 // i zapisanie tego na pliku TXT
-package sample.Controllers;
+package sample.Classes;
 
 import java.io.*;
 import java.util.Scanner;
@@ -34,10 +34,10 @@ public class IpSearchClass {
 
         } catch (
                 FileNotFoundException e) {
-            // TODO Auto-generated catch block
+
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
+
             e.printStackTrace();
         }
 

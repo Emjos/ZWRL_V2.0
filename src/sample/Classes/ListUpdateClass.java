@@ -3,7 +3,7 @@
 // i konwetruje to na OBliste i wrzuca do odpowiedniej listy
 
 
-package sample.Controllers;
+package sample.Classes;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

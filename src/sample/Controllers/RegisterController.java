@@ -14,6 +14,9 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
+import sample.SceneExtras.AlertWindow;
+import sample.SceneExtras.NewSceneClass;
+import sample.ServerClass.ServerConnect;
 
 import java.io.IOException;
 import java.sql.*;
@@ -49,7 +52,7 @@ public class RegisterController {
     private String query;
     private String procedure;
     private static ServerConnect serverConnect = new ServerConnect();
-
+    AlertWindow alertWindow = new AlertWindow();
 
 
     public void backButtonUse(ActionEvent event) throws IOException {
@@ -72,27 +75,22 @@ public class RegisterController {
                 check++;
             }
             if (check == 0) {
-                System.out.println("uzytkownik " + userButton.getText() + " nie istnieje");
+
                 procedure = "{call 30712964_test.create_new_user(?,?,?)}";
                 PreparedStatement stmt2 = serverConnect.connection.prepareStatement(procedure);
                 stmt2.setString(1, userButton.getText());
                 stmt2.setString(2, passwordButton.getText());
                 stmt2.setString(3, emailText.getText());
                 stmt2.executeUpdate();
-                System.out.println("Data Added Successfully");
-                nieistnieje.setVisible(true);
-                istnieje.setVisible(false);
-                nieistnieje.setText("Data Added Successfully");
+                alertWindow.setAlert("Data Added Successfully");
 
 
             }
             else if (check != 0) {
-                istnieje.setText("uzytkownik " + userButton.getText() + " istnieje");
-                istnieje.setVisible(true);
-                nieistnieje.setVisible(false);
+                    alertWindow.setAlert("uzytkownik " + userButton.getText() + " istnieje");
 
 
-                System.out.println("uzytkownik " + userButton.getText() + " istnieje");
+
             }
         }
         catch (SQLException e) {
