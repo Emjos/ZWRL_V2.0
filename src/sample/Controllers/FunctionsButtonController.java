@@ -8,6 +8,7 @@ package sample.Controllers;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import sample.SceneExtras.NewSceneClass;
 
 import java.io.IOException;
 
@@ -25,10 +26,10 @@ public class FunctionsButtonController {
 
 
     public void functionThirdController(ActionEvent event) throws IOException {
-
-        Parent backToLogin = FXMLLoader.load(getClass().getResource("../View/FunctionThreePane.fxml"));
+        Parent mainPaneParent = FXMLLoader.load(getClass().getResource("../View/FunctionThreePane.fxml"));
         NewSceneClass newScene = new NewSceneClass();
-        newScene.newScene(event,backToLogin);
+        newScene.newScene(event,mainPaneParent);
+
     }
     public void backButtonController(ActionEvent event) throws IOException{
         Parent backToLogin = FXMLLoader.load(getClass().getResource("../View/LoginPane.fxml"));

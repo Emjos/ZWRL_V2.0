@@ -13,6 +13,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import sample.SceneExtras.AlertWindow;
+import sample.SceneExtras.NewSceneClass;
+import sample.ServerClass.ServerConnect;
 
 import java.io.IOException;
 import java.sql.ResultSet;
@@ -21,6 +24,8 @@ import java.sql.Statement;
 
 
 public class LoginController {
+
+    AlertWindow alertWindow = new AlertWindow();
 
     @FXML
     private TextField usernameField;
@@ -37,6 +42,10 @@ public class LoginController {
     private static ServerConnect serverConnect = new ServerConnect();
     private Statement statement;
     FunctionsButtonController functionsButtonController = new FunctionsButtonController();
+
+    public LoginController() throws IOException {
+    }
+
     @FXML // Przycisk zalogowania sprawdza usernameField i passwordField i loguje do maina
     private void handleButtonAction(ActionEvent event) throws IOException {
         serverConnect.DBConnect();
@@ -54,9 +63,7 @@ public class LoginController {
             e.printStackTrace();
         }
 
-        System.out.println(query);
-        System.out.println(username);
-        System.out.println(password);
+
 
 
         if ( usernameField.getText().equals(username) && passwordField.getText().equals(password)) {
@@ -64,7 +71,7 @@ public class LoginController {
 
         }
         else
-            errorLabel.setVisible(true);
+        alertWindow.setAlert("Haslo badz login niepoprawne");
     }
 
 

@@ -13,7 +13,8 @@ import javafx.fxml.FXML;
 
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
-
+import sample.Classes.ImportIpData;
+import sample.Classes.ListUpdateClass;
 
 
 import java.io.IOException;
@@ -30,6 +31,9 @@ public class MainController {
     @FXML
     private TextArea textAreaIp;
     FunctionsButtonController functionsButtonController = new FunctionsButtonController();
+
+    public MainController() throws IOException {
+    }
 
     @FXML
     void funtionFirstController(ActionEvent event) throws IOException {
@@ -62,7 +66,7 @@ public class MainController {
         String ip;
         ip = listIp.getSelectionModel().getSelectedItem();
         ImportIpData importIpData = new ImportIpData();
-        System.out.println(importIpData.Check(ip));
+
 
 
 

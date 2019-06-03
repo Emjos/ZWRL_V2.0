@@ -31,6 +31,9 @@ public class FunctionThreeController {
 
      FunctionsButtonController functionsButtonController = new FunctionsButtonController();
 
+    public FunctionThreeController() throws IOException {
+    }
+
     @FXML
     void functionSecondController(ActionEvent event) {
 

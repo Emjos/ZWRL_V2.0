@@ -1,4 +1,4 @@
-package sample.Controllers;
+package sample.Classes;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
