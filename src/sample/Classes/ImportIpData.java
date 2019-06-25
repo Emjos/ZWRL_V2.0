@@ -21,16 +21,8 @@ public class ImportIpData {
                 if (row.select("td:nth-of-type(1)").text().equals("")) {
                     continue;
                 } else {
-
-                   // for (int a = 0; a < 12; a++) {
-                        tab3.add(row.select("td:nth-of-type(1)").text() + " " + row.select("td:nth-of-type(2)").text());
-
-
-                  //      a++;
-                  //  }
-
+                    tab3.add(row.select("td:nth-of-type(1)").text() + " " + row.select("td:nth-of-type(2)").text());
                 }
-
             }
 
         } catch (Exception ex) {

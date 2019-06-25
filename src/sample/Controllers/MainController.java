@@ -41,7 +41,7 @@ public class MainController {
         functionsButtonController.funtionFirstController(event);
     }
     @FXML
-    void functionSecondController(ActionEvent event) {
+    void functionSecondController(ActionEvent event) throws IOException {
       functionsButtonController.functionSecondController(event);
     }
 
@@ -53,6 +53,7 @@ public class MainController {
     void loadButtonInAction() throws IOException {
         ListUpdateClass listUpdateClass = new ListUpdateClass();
         listUpdateClass.Update(listIp);
+
     }
     @FXML
     public void backButtonUse(ActionEvent event) throws IOException {

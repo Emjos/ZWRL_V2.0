@@ -46,27 +46,29 @@ public class LoginController {
     public LoginController() throws IOException {
     }
 
-    @FXML // Przycisk zalogowania sprawdza usernameField i passwordField i loguje do maina
+    @FXML
     private void handleButtonAction(ActionEvent event) throws IOException {
         serverConnect.DBConnect();
-        query = "select user_nick,user_password from 30712964_test.users where user_nick ='"+usernameField.getText() +"';";
+        query = "select * from 30712964_test.users where user_email ='"+usernameField.getText() +"';";
         String username =null;
         String password= null;
+        String email = null;
         try {
             statement = serverConnect.connection.createStatement();
             ResultSet rs = statement.executeQuery(query);
             while (rs.next()) {
                  username = rs.getString("user_nick");
                  password = rs.getString("user_password");
+                 email = rs.getString("user_email");
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
+   ;
 
 
-
-
-        if ( usernameField.getText().equals(username) && passwordField.getText().equals(password)) {
+        if ( usernameField.getText().equals(email) && passwordField.getText().equals(password)) {
+            alertWindow.setAlert("Witaj " + username + "\n Zalogowano Cie pomyslnie" );
            functionsButtonController.funtionFirstController(event);
 
         }

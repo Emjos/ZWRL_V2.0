@@ -8,6 +8,7 @@ package sample.Controllers;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.control.ComboBox;
 import sample.SceneExtras.NewSceneClass;
 
 import java.io.IOException;
@@ -20,8 +21,12 @@ public class FunctionsButtonController {
         newScene.newScene(event,mainPaneParent);
 
     }
-    public void functionSecondController(ActionEvent event){
-        System.out.println("Funkcja druga");
+    public void functionSecondController(ActionEvent event) throws IOException {
+        Parent mainPaneParent = FXMLLoader.load(getClass().getResource("../View/FunctionTwoPane.fxml"));
+        NewSceneClass newScene = new NewSceneClass();
+        newScene.newScene(event,mainPaneParent);
+
+
     }
 
 

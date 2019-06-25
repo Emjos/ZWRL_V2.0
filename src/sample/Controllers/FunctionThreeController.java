@@ -31,12 +31,10 @@ public class FunctionThreeController {
 
      FunctionsButtonController functionsButtonController = new FunctionsButtonController();
 
-    public FunctionThreeController() throws IOException {
-    }
 
     @FXML
-    void functionSecondController(ActionEvent event) {
-
+    void functionSecondController(ActionEvent event) throws IOException {
+        functionsButtonController.functionSecondController(event);
     }
 
     @FXML
@@ -64,4 +62,6 @@ public class FunctionThreeController {
         informationArea.clear();
         informationArea.appendText(sc.next());
     }
+
+
 }

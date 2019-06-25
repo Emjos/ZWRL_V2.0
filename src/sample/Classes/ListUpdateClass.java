@@ -37,9 +37,11 @@ public void Update(ListView<String> listIp)throws IOException {
         i++;
     }
     for (int a = 0; a < i; a++) {
-        obList1.add(lista.get(a));
-        listIp.setItems(obList1);
-    }
+        if(lista.get(a).length() > 6) {
+            obList1.add(lista.get(a));
+            listIp.setItems(obList1);
+
+        }}
     obList1.add("80.192.167.88"); //Testowy IP
     obList1.add("123.206.76.184"); //Testowy IP
     listIp.setItems(obList1);// To tez Do usuniecia
