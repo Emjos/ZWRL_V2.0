@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ZwrlProject.iml" filepath="$PROJECT_DIR$/ZwrlProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ZwrlProjectGit.iml" filepath="$PROJECT_DIR$/.idea/ZwrlProjectGit.iml" />
     </modules>
   </component>
 </project>
