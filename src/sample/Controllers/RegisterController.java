@@ -68,7 +68,7 @@ public class RegisterController {
         procedure = "{call 30712964_test.look_for_user(?)}";
         try {
             CallableStatement stmt = serverConnect.connection.prepareCall(procedure);
-            stmt.setString(1, userButton.getText());
+            stmt.setString(1, emailText.getText());
             ResultSet rs = stmt.executeQuery();
             int check = 0;
             while (rs.next()) {
@@ -87,7 +87,7 @@ public class RegisterController {
 
             }
             else if (check != 0) {
-                    alertWindow.setAlert("uzytkownik " + userButton.getText() + " istnieje");
+                    alertWindow.setAlert("Konto z adresem   " + emailText.getText() + " istnieje");
 
 
 

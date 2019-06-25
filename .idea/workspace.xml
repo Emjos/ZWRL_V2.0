@@ -10,6 +10,8 @@
       <change afterPath="$PROJECT_DIR$/UmlDiagram.suml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectDiagrams/ZwrlDiagram.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/RegisterController.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,14 +120,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/RegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="587">
+              <caret line="89" column="73" selection-start-line="89" selection-start-column="73" selection-end-line="89" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/Classes/ImportIpData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3320581-896e-408f-b2bd-4bfe4435a184/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -184,9 +231,6 @@
         <option value="$PROJECT_DIR$/src/sample/ServerClass/ServerConnect.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/AlertWindow.java" />
         <option value="/477c9bec/e3320581-896e-408f-b2bd-4bfe4435a184/schema/30712964_test/routine/create_new_user@(char(20),char(25),char(20)).sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e3320581-896e-408f-b2bd-4bfe4435a184/console.sql" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/NewSceneClass.java" />
         <option value="$PROJECT_DIR$/src/sample/Classes/IpSearchClass.java" />
         <option value="$PROJECT_DIR$/src/sample/View/FunctionTwoPane.fxml" />
@@ -197,15 +241,18 @@
         <option value="$PROJECT_DIR$/src/sample/Controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/FunctionTwoController.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/FunctionsButtonController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/RegisterController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e3320581-896e-408f-b2bd-4bfe4435a184/console.sql" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/LoginController.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1688" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,18 +265,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="ZwrlProjectGit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="ZwrlProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="ZwrlProjectGit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ZwrlProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="ProjectDiagrams" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="ZwrlProjectGit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -261,26 +302,13 @@
               <item name="ZwrlProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="sample" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="SceneExtras" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ZwrlProjectGit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ZwrlProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sample" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ServerClass" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ZwrlProjectGit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ZwrlProject" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sample" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="View" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -309,7 +337,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559820425567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560540113329" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -327,19 +355,19 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="sample.Controllers" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\ZwrlProjectGit\pliki" />
-      <recent name="Z:\ZwrlProjectGit\Libraries" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\ZwrlProjectGit\ProjectDiagrams" />
       <recent name="Z:\ZwrlProjectGit" />
       <recent name="Z:\ZwrlProjectGit\src\Libraries" />
       <recent name="Z:\ZwrlProject\src\sample\Controllers" />
       <recent name="Z:\ZwrlProject\src\sample\View" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\ZwrlProjectGit\pliki" />
+      <recent name="Z:\ZwrlProjectGit\Libraries" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -491,7 +519,10 @@
       <workItem from="1559376259659" duration="962000" />
       <workItem from="1559594523147" duration="7393000" />
       <workItem from="1559766246117" duration="10902000" />
-      <workItem from="1559783222057" duration="4196000" />
+      <workItem from="1559783222057" duration="4943000" />
+      <workItem from="1559980743962" duration="2508000" />
+      <workItem from="1560329951486" duration="1986000" />
+      <workItem from="1560538578667" duration="2006000" />
     </task>
     <task id="LOCAL-00001" summary="remove git ignore">
       <created>1557351777788</created>
@@ -542,11 +573,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559778456393</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Function two">
+      <created>1559820467037</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559820467037</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Push">
+      <created>1559820492190</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559820492191</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100614000" />
+    <option name="totallyTimeSpent" value="107861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1688" y="-8" width="1696" height="1026" extended-state="6" />
@@ -556,7 +601,7 @@
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.17675841" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.18470947" />
       <window_info id="Structure" order="5" weight="0.24954128" />
       <window_info id="Favorites" order="6" weight="0.3296636" />
       <window_info x="-1109" y="58" width="538" height="893" id="simpleUML" order="7" type="WINDOWED" weight="0.329052" />
@@ -565,7 +610,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3281075" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.055991042" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.24972005" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -578,7 +623,7 @@
       <window_info anchor="bottom" id="Event Log" order="15" weight="0.3285968" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32586786" />
       <window_info active="true" anchor="bottom" id="Inspection Results" order="17" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Database Console" order="18" weight="0.20828667" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.27771556" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -587,7 +632,7 @@
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.1969419" />
+      <window_info anchor="right" id="Database" order="8" weight="0.19676113" />
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="right" id="PlantUML" order="11" weight="0.3296636" />
@@ -697,7 +742,8 @@
     <MESSAGE value="Login and Registry done&#10;New private DataBase server pushed" />
     <MESSAGE value="Refactoring Code" />
     <MESSAGE value="Function two" />
-    <option name="LAST_COMMIT_MESSAGE" value="Function two" />
+    <MESSAGE value="Push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -720,20 +766,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/View/FunctionButtons.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/View/MainPane.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="uml://JAVA/sample.Controllers">
@@ -826,12 +872,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/View/RegisterPane.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="23" column="132" selection-start-line="23" selection-start-column="132" selection-end-line="23" selection-end-column="132" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/LookForUser.java" />
     <entry file="das://70083d89-b360-4dd4-aec2-1fea8b9795a7/schema/zwrlusers/table/users" />
@@ -853,32 +899,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/RegistryClass.java" />
-    <entry file="das://e3320581-896e-408f-b2bd-4bfe4435a184/schema/30712964_test/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://e3320581-896e-408f-b2bd-4bfe4435a184/schema/30712964_test/table/users" />
     <entry file="dbSrc:///477c9bec/e3320581-896e-408f-b2bd-4bfe4435a184/schema/30712964_test/routine/look_for_user@(char(20)).sql" />
     <entry file="dbSrc:///477c9bec/e3320581-896e-408f-b2bd-4bfe4435a184/schema/30712964_test/routine/create_new_user@(char(20),char(25),char(20)).sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3320581-896e-408f-b2bd-4bfe4435a184/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/SceneExtras/AlertWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -898,55 +921,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pliki/Test.txt" />
     <entry file="file://$PROJECT_DIR$/src/sample/View/LoginPane.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/View/FunctionThreePane.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="140" selection-start-line="8" selection-start-column="140" selection-end-line="8" selection-end-column="159" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Classes/ImportIpData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Classes/IpSearchClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/FunctionTwoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -964,12 +957,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/View/FunctionTwoPane.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="80" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/SceneExtras/NewSceneClass.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1009,7 +1002,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="237.0" y="236.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="237.0" y="237.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1031,11 +1024,12 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="391.0" y="321.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="391.0" y="322.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -1089,6 +1083,7 @@
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Overview</VISIBILITY>
         </state>
       </provider>
@@ -1101,11 +1096,12 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="660.5" y="321.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="661.0" y="322.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Overview</VISIBILITY>
         </state>
       </provider>
@@ -1156,7 +1152,7 @@
               <point x="34.5" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-272.5" y="44.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-272.0" y="44.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1170,28 +1166,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectDiagrams/ZwrlDiagram.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="660.5" y="321.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectDiagrams/ZwrlDiagram.uml" />
     <entry file="uml://JAVA/sample.Main">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1204,26 +1179,16 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="147.0" y="176.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="147.0" y="177.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
-            <Category>Inner Classes</Category>
             <Category>Properties</Category>
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Classes/ListUpdateClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1260,14 +1225,14 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.9967299578059071" x="785.1328182876496" y="504.7975447137263" />
+          <settings layout="Hierarchic Group" zoom="0.9967299578059071" x="785.0" y="505.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-            <Category>Inner Classes</Category>
             <Category>Fields</Category>
             <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1285,7 +1250,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="206.0" y="125.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="206.0" y="126.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1308,7 +1273,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="204.0" y="88.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="204.0" y="89.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1330,52 +1295,17 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="802.5" y="395.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="803.0" y="396.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Overview</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectDiagrams/AllClassUml.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>sample.Controllers.FunctionsButtonController</OriginalElement>
-          <nodes>
-            <node x="" y="">sample.Controllers.FunctionThreeController</node>
-            <node x="" y="">sample.Main</node>
-            <node x="" y="">sample.Classes.ListUpdateClass</node>
-            <node x="" y="">sample.Classes.ForFunctionTwo</node>
-            <node x="" y="">sample.ServerClass.ServerConnect</node>
-            <node x="" y="">sample.SceneExtras.AlertWindow</node>
-            <node x="" y="">sample.Controllers.LoginController</node>
-            <node x="" y="">sample.Classes.ImportIpData</node>
-            <node x="" y="">sample.Controllers.RegisterController</node>
-            <node x="" y="">sample.SceneExtras.NewSceneClass</node>
-            <node x="" y="">sample.Controllers.FunctionsButtonController</node>
-            <node x="" y="">sample.Controllers.MainController</node>
-            <node x="" y="">sample.Controllers.FunctionTwoController</node>
-            <node x="" y="">sample.Classes.IpSearchClass</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9967299578059071" x="785.0" y="365.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectDiagrams/AllClassUml.uml" />
     <entry file="uml://JAVA/sample.Controllers.MainController">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1384,7 +1314,7 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.9193989071038251" x="722.0" y="273.5" />
+          <settings layout="Hierarchic Group" zoom="0.9193989071038251" x="722.0" y="274.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1398,10 +1328,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3320581-896e-408f-b2bd-4bfe4435a184/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="587">
+          <caret line="89" column="73" selection-start-line="89" selection-start-column="73" selection-end-line="89" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Classes/ListUpdateClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Classes/IpSearchClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Classes/ImportIpData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
